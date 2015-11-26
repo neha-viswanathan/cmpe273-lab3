@@ -23,7 +23,7 @@ import (
    KVList []KVal `json:"kvlist"`
  }
 
- var kvMap map[int]KVa2
+ var kvMap map[int]KVa
 
  func main() {
    kvMap = make(map[int]KVal)
